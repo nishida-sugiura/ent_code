@@ -51,12 +51,12 @@ function openQRCodeReader() {
 
                 console.log("QRコードスキャン結果:", result.value);
 
-                let qr_data = result.value;
+               let qr_data = parseInt(result.value, 10);　//10進数
                 
  //let aaa=hukugo(String(qr_data));
 		    
 //let aaa=hukugo(qr_data);     
-let bb = qr_data+ji*hun
+let bb = qr_data*niti+ji*hun
 		    
                let aaa = "qr_data:" + bb;
 
