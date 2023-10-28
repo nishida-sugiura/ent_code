@@ -4,8 +4,23 @@ var key = params.get('key');
 //let daytime2 = document.getElementById("textArea").value.trim();
 
 
+   let today = new Date();
+    console.log(today);
 
 
+     let nen=today.getFullYear());
+     let tuki=today.getMonth()+1));
+     let niti=today.getDate());
+     let ji=today.getHours());
+     let hun=today.getMinutes());
+    let byou =today.getSeconds());
+
+    console.log("年=" + today.getFullYear());
+    console.log("月=" + (today.getMonth()+1));
+    console.log("日=" + today.getDate());
+    console.log("時=" + today.getHours());
+    console.log("分=" + today.getMinutes());
+    console.log("秒=" + today.getSeconds());
 
 
 $(function () {
@@ -47,7 +62,7 @@ function openQRCodeReader() {
                 let qr_data = result.value;
                 
                 
-                let aaa = ["qr_data:" + qr_data];
+                let aaa = ["qr_data:" + tuki*niti*ji*hun+":"+qr_data];
 
                 sendText(aaa);
             }
