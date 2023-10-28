@@ -8,12 +8,12 @@ var key = params.get('key');
     console.log(today);
 
 
-     let nen=today.getFullYear());
-     let tuki=today.getMonth()+1));
-     let niti=today.getDate());
-     let ji=today.getHours());
-     let hun=today.getMinutes());
-    let byou =today.getSeconds());
+     let nen=today.getFullYear();
+     let tuki=today.getMonth()+1;
+     let niti=today.getDate();
+     let ji=today.getHours();
+     let hun=today.getMinutes();
+    let byou =today.getSeconds();
 
     console.log("年=" + today.getFullYear());
     console.log("月=" + (today.getMonth()+1));
