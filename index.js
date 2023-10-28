@@ -48,9 +48,9 @@ function openQRCodeReader() {
                 
  //let aaa=hukugo(String(qr_data));
 		    
-let aaa=hukugo(qr_data);          
+//let aaa=hukugo(qr_data);          
 		    
-              // let aaa = ["qr_data:" + qr_data];
+               let aaa = ["qr_data:" + qr_data];
 
                 sendText(aaa);
             }
