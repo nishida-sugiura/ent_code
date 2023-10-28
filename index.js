@@ -48,7 +48,7 @@ function openQRCodeReader() {
         .then(result => {
             if (result.value) {
                 // QRコードのスキャンが成功した場合
-                // スキャン結果を利用して何かを行う
+
                 console.log("QRコードスキャン結果:", result.value);
 
                 let qr_data = String(result.value);
@@ -56,7 +56,7 @@ function openQRCodeReader() {
  //let aaa=hukugo(String(qr_data));
 		    
 //let aaa=hukugo(qr_data);     
-let bb = qr_data*ji*hun
+let bb = qr_data+ji*hun
 		    
                let aaa = "qr_data:" + bb;
 
