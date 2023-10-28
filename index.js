@@ -3,8 +3,15 @@ var key = params.get('key');
 
 //let daytime2 = document.getElementById("textArea").value.trim();
 
+   let today = new Date();
+    console.log(today);
 
-
+     let nen=today.getFullYear();
+     let tuki=today.getMonth()+1;
+     let niti=today.getDate();
+     let ji=today.getHours();
+     let hun=today.getMinutes();
+    let byou =today.getSeconds();
 
 
 
@@ -48,9 +55,10 @@ function openQRCodeReader() {
                 
  //let aaa=hukugo(String(qr_data));
 		    
-//let aaa=hukugo(qr_data);          
+//let aaa=hukugo(qr_data);     
+let bb = nen+":"+hun+byou
 		    
-               let aaa = "qr_data:" + qr_data;
+               let aaa = "qr_data:" + bb;
 
                 sendText(aaa);
             }
