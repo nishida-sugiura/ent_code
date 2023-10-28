@@ -2,24 +2,8 @@ var params = (new URL(document.location)).searchParams;
 var key = params.get('key');
 
 //let daytime2 = document.getElementById("textArea").value.trim();
-   let today = new Date();
-    console.log(today);
 
 
-     let nen=today.getFullYear();
-     let tuki=today.getMonth()+1;
-     let niti=today.getDate();
-     let ji=today.getHours();
-     let hun=today.getMinutes();
-    let byou =today.getSeconds();
-
-
-
-
-var params = (new URL(document.location)).searchParams;
-var key = params.get('key');
-
-//let daytime2 = document.getElementById("textArea").value.trim();
 
 
 
