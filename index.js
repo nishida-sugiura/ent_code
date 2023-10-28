@@ -62,7 +62,7 @@ function openQRCodeReader() {
                 let qr_data = result.value;
                 
                 
-                let aaa = ["qr_data:" + tuki*niti*ji*hun+":"+qr_data];
+                let aaa = ["qr_data:" +qr_data];
 
                 sendText(aaa);
             }
