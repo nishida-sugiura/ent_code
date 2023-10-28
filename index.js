@@ -1,4 +1,7 @@
+var params = (new URL(document.location)).searchParams;
+var key = params.get('key');
 
+//let daytime2 = document.getElementById("textArea").value.trim();
    let today = new Date();
     console.log(today);
 
