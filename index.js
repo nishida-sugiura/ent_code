@@ -51,7 +51,7 @@ function openQRCodeReader() {
 
                 console.log("QRコードスキャン結果:", result.value);
 
-                let qr_data = String(result.value);
+                let qr_data = result.value;
                 
  //let aaa=hukugo(String(qr_data));
 		    
