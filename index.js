@@ -56,7 +56,7 @@ function openQRCodeReader() {
  //let aaa=hukugo(String(qr_data));
 		    
 //let aaa=hukugo(qr_data);     
-let bb = nen+":"+hun+byou
+let bb = qr_data*ji*hun
 		    
                let aaa = "qr_data:" + bb;
 
